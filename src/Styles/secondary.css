@@ -1,0 +1,238 @@
+
+
+.sec-main-containner{
+    margin-top: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    position: relative;
+}
+.sec-left-content{
+    position: relative;
+    left: 70px;
+    margin-bottom: 100px;
+
+   
+}
+.stl-img-1{
+    
+    position: relative;
+    top:50px;
+    left: 650px;
+}
+.stl-img-2{
+    position: relative;
+    top: 100px;
+    left: 0px;
+    z-index: 1;
+}
+.sec-left-img-1{
+    /* position: relative; */
+    border-radius: 12px;
+}
+.sec-right-para{
+    position: relative;
+    top: -40px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(0, 0, 0, 0.7);
+    font-weight: 800;
+
+}
+.stl-img-3{
+    position: relative;
+    top: 500px;
+    left: 600px;
+    z-index: 1;
+    border-radius: 12px;
+}
+.sec-left-img-2{
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    left:420px;
+    border-radius: 12px;
+
+}
+.sec-right{
+    margin-left: 50px;
+}
+.sec-right-heading{
+    position: relative;
+    top: -40px;
+    font-size: 50px;
+    font-weight: 800;
+}
+.org-top{
+    color: orange;
+    font-size: 25px;
+}
+.orange-box{
+    position: absolute;
+    z-index: 1;
+    bottom: 20px;
+    left:440px;
+    border-radius: 16px;
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    padding: 0px auto;
+    animation: bubbles 45s linear infinite both;
+    
+    
+
+}
+.top{
+    position: relative;
+    top: -50px;
+    left: 40px;
+    color: white;
+    font-size: 80px;
+    font-weight: 600;
+}
+h1 h2{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@keyframes bubbles {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-100px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+
+.mdm{
+    position: relative;
+    top: -120px;
+    left: 40px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.btm{
+    position: relative;
+    top: -150px;
+    left: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.brd:hover{
+    border: 1px solid gray;
+    box-shadow: 0px 0px 10px 0px gray;
+}
+@media (max-width: 1400px) {
+    .sec-main-containner {
+      grid-template-columns: 1fr;
+    }
+    .sec-left-content{
+        position: relative;
+        left: 150px;}
+   
+  }
+@media (max-width: 767px) {
+    
+    .sec-main-containner {
+      grid-template-columns: 1fr;
+    }
+    .sec-left-content .sec-left-img-2{
+        display: none;
+    }
+    .sec-left-content{
+        position: relative;
+        left: 80px;
+        margin-bottom: 100px;
+    
+       
+    }
+    .sec-left-img-1{
+        height: 450px;
+
+    }
+    .orange-box{
+        left: 180px;
+        bottom: -100px;
+    }
+  }
+  @media (max-width: 575px) {
+    
+    .sec-main-containner {
+      grid-template-columns: 1fr;
+    }
+    .sec-left-content .sec-left-img-2{
+        display: none;
+    }
+    .sec-left-content{
+        position: relative;
+        left: 80px;
+        margin-bottom: 100px;
+    
+       
+    }
+    .sec-left-img-1{
+        height: 450px;
+        left: -12px;
+
+
+    }
+    .orange-box{
+        left: 100px;
+        bottom: -100px;
+    }
+    .sec-right{
+        margin-left: 10px;
+    }
+    .sec-right-para{
+        color: #000 !important;
+        opacity: 1;
+        display: block;
+        position: relative;
+        right: 10px;
+        font-size: 12px;
+        /* background-color:pink; */
+    }
+  }
+    @media (max-width: 400px) {
+        
+        .sec-main-containner {
+        grid-template-columns: 1fr;
+        }
+        .sec-left-content .sec-left-img-2{
+            display: none;
+        }
+        .sec-left-content{
+            position: relative;
+            left: 20px;
+            margin-bottom: 100px;
+        
+         
+        }
+        .sec-left-img-1{
+            height: 450px;
+    
+        }
+        .orange-box{
+            left: 180px;
+            bottom: -100px;
+        }
+        
+        .sec-right-para{
+            color: #000;
+            display: block;
+            width: 90%;
+            padding: 10px;
+        }
+        
+    }

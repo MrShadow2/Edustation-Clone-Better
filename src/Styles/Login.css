@@ -1,0 +1,71 @@
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffdfc1;
+  }
+  
+  .neomorphism-card {
+    background-color: #ffdfc1;
+    border-radius: 15px;
+    box-shadow: 8px 8px 15px #d1a278, -6px -6px 15px #ffffff;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .neomorphism-card h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    color: orangered;
+  }
+ 
+  .link{
+    text-decoration: none;
+    color: orangered;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  label {
+    margin-bottom: 0.25rem;
+  }
+
+  label{
+    font-size: 1.2rem;
+  }
+  
+  input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffdfc1;
+    box-shadow: inset 4px 4px 8px #d1a278, inset -4px -4px 8px #ffffff;
+    outline: none;
+   
+
+  }
+  
+  .btn {
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffdfc1;
+    box-shadow: 4px 4px 8px #d1a278, -4px -4px 8px #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  
+  .btn:hover {
+    background-color: #ffebc1;
+  }
+  
